@@ -11,7 +11,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        login start
         <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<Register />}></Route>
         <Route path="properties" element={<PropertyList />} />
