@@ -1,14 +1,18 @@
 
 import React from "react";
 import Login from "./pages/Login"
-
+import { Navbar } from "./components/Navbar/Navbar";
 function App() {
   return (
     <div>
-      {/* <h1>Welcome to My React App</h1> */}
+       <Navbar/>
+
       <Login/>
     </div>
   );
 }
 
 export default App;
+
+
+
