@@ -57,4 +57,4 @@ const Register = () => {
   );
 };
 export default Register;
->>>>>>> pr3
+

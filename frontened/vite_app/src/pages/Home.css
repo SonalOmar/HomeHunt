@@ -2,9 +2,7 @@
   height: 400px;
   object-fit: cover;
   border-radius: 14px;
-  
 }
-
 
 .carousel-caption {
   background: rgba(0, 0, 0, 0.4); /* Optional dark overlay */
@@ -21,4 +19,7 @@
 .carousel-subtitle {
   font-size: 1.2rem;
   color: white;
+}
+.cc {
+  height: 100px;
 }

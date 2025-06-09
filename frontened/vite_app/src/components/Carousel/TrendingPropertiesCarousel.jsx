@@ -5,7 +5,7 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "./TrendingPropertiesCarousel.css"; // Optional: for custom styles
+import "./TrendingPropertiesCarousel.css";
 import flat1 from "../../assets/images/flat1.jpg";
 import flat2 from "../../assets/images/flat2.jpg";
 import flat3 from "../../assets/images/flat3.jpg";
@@ -26,7 +26,7 @@ const properties = [
   },
   {
     id: 2,
-    image:flat2,
+    image: flat2,
     bhk: "2 BHK Flat",
     price: "₹78 Lac",
     size: "740 sqft",
@@ -73,7 +73,7 @@ const properties = [
     location: "Sorahunase, Bangalore",
     status: "Ready to Move",
     photos: 15,
-  }
+  },
 ];
 
 const TrendingPropertiesCarousel = () => {
