@@ -1,0 +1,17 @@
+# System files
+.DS_Store
+
+# Logs and temporary files
+*.log
+
+# Environment files
+.env
+
+# Python cache
+__pycache__
+
+# Virtual environments
+venv/
+
+# IDE settings
+.vscode/
