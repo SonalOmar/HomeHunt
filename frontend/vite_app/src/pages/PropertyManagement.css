@@ -1,0 +1,730 @@
+/* Property Management Page - Unique Class Names */
+.pm-page {
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+.pm-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px 40px;
+}
+
+/* Header */
+.pm-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.pm-header-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000000e6;
+  margin-bottom: 0.5rem;
+}
+
+.pm-header-content p {
+  color: #636e72;
+  font-size: 1.1rem;
+}
+
+.pm-add-btn {
+  background: linear-gradient(135deg, #27AE60, #2ECC71);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.pm-add-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(39, 174, 96, 0.3);
+}
+
+/* Debug Section */
+.pm-debug-section {
+  padding: 10px;
+  margin: 10px 0;
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+
+.pm-debug-btn {
+  padding: 5px 10px;
+  margin: 5px;
+  background: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.pm-debug-btn:hover {
+  background: #5a6268;
+}
+
+/* Property Form */
+.pm-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.pm-form-container {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  max-width: 600px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.pm-form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.pm-form-header h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2d3436;
+}
+
+.pm-close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #636e72;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pm-close-btn:hover {
+  color: #2d3436;
+}
+
+.pm-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.pm-form-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pm-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.pm-full-width {
+  width: 100%;
+}
+
+.pm-form-group label {
+  font-weight: 600;
+  color: #2d3436;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.pm-form-group input,
+.pm-form-group textarea,
+.pm-form-group select {
+  padding: 12px 16px;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.pm-form-group input:focus,
+.pm-form-group textarea:focus,
+.pm-form-group select:focus {
+  outline: none;
+  border-color: #27AE60;
+  box-shadow: 0 0 0 3px rgba(39, 174, 96, 0.1);
+}
+
+.pm-form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+  font-family: inherit;
+}
+
+/* Checkbox Styles */
+.pm-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.pm-checkbox-label input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+/* Amenities Grid */
+.pm-amenities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.pm-amenity-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.pm-amenity-checkbox:hover {
+  background-color: #f8f9fa;
+}
+
+.pm-amenity-checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+/* Form Actions */
+.pm-form-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.pm-cancel-btn {
+  padding: 12px 24px;
+  border: 2px solid #e9ecef;
+  background: white;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pm-cancel-btn:hover {
+  border-color: #636e72;
+}
+
+.pm-submit-btn {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #27AE60, #2ECC71);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pm-submit-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(39, 174, 96, 0.3);
+}
+
+.pm-submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Properties List */
+.pm-properties-list {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.pm-list-header {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.pm-list-header h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2d3436;
+}
+
+/* Empty State */
+.pm-empty-state {
+  text-align: center;
+  padding: 3rem 2rem;
+  color: #636e72;
+}
+
+.pm-empty-state h4 {
+  font-size: 1.2rem;
+  margin: 1rem 0 0.5rem;
+  color: #2d3436;
+}
+
+.pm-add-first-btn {
+  background: #27AE60;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+
+.pm-add-first-btn:hover {
+  background: #229954;
+  transform: translateY(-2px);
+}
+
+/* Properties Grid */
+.pm-properties-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+.pm-property-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e9ecef;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pm-property-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Property Image Section */
+.pm-property-image {
+  position: relative;
+  height: 200px;
+  background: #f8f9fa;
+  overflow: hidden;
+}
+
+.pm-property-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.pm-property-card:hover .pm-property-image img {
+  transform: scale(1.05);
+}
+
+.pm-image-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6c757d;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.pm-featured-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: linear-gradient(135deg, #FF6B6B, #FF8E8E);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.pm-image-count {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Property Details */
+.pm-property-details {
+  padding: 1.5rem;
+}
+
+.pm-property-details h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2d3436;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+.pm-property-location {
+  color: #636e72;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.pm-property-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.pm-price {
+  font-weight: 700;
+  color: #27AE60;
+  font-size: 1.3rem;
+}
+
+.pm-type {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.pm-type-sale {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.pm-type-rent {
+  background: #fff3e0;
+  color: #f57c00;
+}
+
+.pm-property-features {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.pm-property-features span {
+  background: #f8f9fa;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: #636e72;
+}
+
+.pm-property-description {
+  color: #636e72;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.pm-property-amenities {
+  font-size: 0.8rem;
+  color: #636e72;
+  margin-bottom: 1rem;
+}
+
+.pm-property-amenities strong {
+  color: #2d3436;
+}
+
+.pm-property-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  padding-top: 1rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.pm-action-btn {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.pm-view-btn {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.pm-view-btn:hover {
+  background: #bbdefb;
+  transform: translateY(-1px);
+}
+
+.pm-edit-btn {
+  background: #fff3e0;
+  color: #f57c00;
+}
+
+.pm-edit-btn:hover {
+  background: #ffe0b2;
+  transform: translateY(-1px);
+}
+
+.pm-delete-btn {
+  background: #ffebee;
+  color: #d32f2f;
+}
+
+.pm-delete-btn:hover {
+  background: #ffcdd2;
+  transform: translateY(-1px);
+}
+
+/* Image Upload Styles */
+.pm-image-upload-section {
+  margin-top: 10px;
+}
+
+.pm-image-upload-area {
+  border: 2px dashed #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.pm-image-upload-area:hover {
+  border-color: #27AE60;
+  background-color: #f8fff9;
+}
+
+.pm-image-upload-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.pm-image-upload-btn:hover {
+  color: #27AE60;
+}
+
+.pm-image-upload-btn span {
+  font-size: 12px;
+  color: #999;
+}
+
+.pm-image-previews {
+  margin-top: 20px;
+}
+
+.pm-image-previews h4 {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 1rem;
+}
+
+.pm-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.pm-image-preview {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.pm-image-preview:hover {
+  transform: scale(1.05);
+}
+
+.pm-image-preview img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  display: block;
+}
+
+.pm-remove-image-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: rgba(255, 0, 0, 0.8);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.pm-remove-image-btn:hover {
+  background: rgba(255, 0, 0, 1);
+}
+
+.pm-existing-badge {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  background: rgba(39, 174, 96, 0.8);
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .pm-container {
+    padding: 80px 15px 20px;
+  }
+
+  .pm-header {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .pm-header-content h1 {
+    font-size: 2rem;
+  }
+
+  .pm-properties-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pm-property-card {
+    flex-direction: column;
+  }
+
+  .pm-form-container {
+    margin: 10px;
+    padding: 1.5rem;
+  }
+
+  .pm-amenities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pm-preview-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+  
+  .pm-image-preview img {
+    height: 100px;
+  }
+
+  .pm-property-image {
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pm-header {
+    text-align: center;
+  }
+
+  .pm-header-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .pm-form-container {
+    padding: 1rem;
+  }
+
+  .pm-form-actions {
+    flex-direction: column;
+  }
+
+  .pm-property-details {
+    padding: 1rem;
+  }
+
+  .pm-property-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .pm-property-features {
+    gap: 0.5rem;
+  }
+}
