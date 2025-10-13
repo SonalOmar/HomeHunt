@@ -3674,3 +3674,41 @@ pip install python-multipart
 2025-10-12 21:03:05,824 - routes.properties - INFO - Found 4 featured properties
 2025-10-12 21:03:05,826 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
 2025-10-12 21:03:05,865 - routes.properties - INFO - Found 4 featured properties
+2025-10-12 21:39:10,083 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-10-12 21:39:10,141 - routes.properties - INFO - Found 4 featured properties
+2025-10-12 21:39:10,151 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-10-12 21:39:10,190 - routes.properties - INFO - Found 4 featured properties
+2025-10-12 21:39:51,258 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-10-12 21:39:51,297 - routes.properties - INFO - Found 4 featured properties
+2025-10-12 21:39:51,304 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-10-12 21:39:51,348 - routes.properties - INFO - Found 4 featured properties
+2025-10-12 21:56:50,809 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-10-12 21:56:51,108 - routes.properties - INFO - Found 4 featured properties
+2025-10-12 21:56:51,113 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-10-12 21:56:51,150 - routes.properties - INFO - Found 4 featured properties
+2025-10-12 22:21:45,281 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-10-12 22:23:50,703 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-10-12 22:24:32,516 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-10-13 14:54:40,764 - routes.auth - INFO - POST /auth/login - Login attempt
+2025-10-13 14:54:40,765 - routes.auth - INFO - Login attempt - Email: ramm1@gmail.com
+2025-10-13 14:54:41,049 - routes.auth - WARNING - Login failed - User not found: ramm1@gmail.com
+2025-10-13 14:54:41,050 - routes.auth - WARNING - HTTPException during login
+2025-10-13 14:56:58,980 - routes.auth - INFO - POST /auth/login - Login attempt
+2025-10-13 14:56:58,981 - routes.auth - INFO - Login attempt - Email: ramm@gmail.com
+2025-10-13 14:56:59,299 - routes.auth - INFO - Login successful - Email: ramm@gmail.com, Role: seller
+2025-10-13 14:57:01,648 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-10-13 14:57:01,691 - routes.properties - INFO - Found 4 featured properties
+2025-10-13 14:57:01,693 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-10-13 14:57:01,732 - routes.properties - INFO - Found 4 featured properties
