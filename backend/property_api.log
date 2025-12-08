@@ -3724,3 +3724,289 @@ pip install python-multipart
 2025-10-13 16:20:07,494 - routes.properties - INFO - Found 4 featured properties
 2025-10-13 16:20:07,503 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
 2025-10-13 16:20:07,542 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 20:32:54,920 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 20:32:55,404 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 20:32:55,411 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 20:32:55,448 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 20:33:01,221 - routes.properties - INFO - GET /properties - Listing all properties
+2025-12-07 20:33:01,259 - routes.properties - INFO - Found 10 properties in database
+2025-12-07 20:33:01,259 - routes.properties - INFO - Successfully retrieved and formatted properties
+2025-12-07 20:33:01,262 - routes.properties - INFO - GET /properties - Listing all properties
+2025-12-07 20:33:01,297 - routes.properties - INFO - Found 10 properties in database
+2025-12-07 20:33:01,297 - routes.properties - INFO - Successfully retrieved and formatted properties
+2025-12-07 20:33:06,583 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 20:33:06,622 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 20:33:06,645 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 20:33:06,683 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 20:53:34,073 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 20:53:34,391 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 20:53:34,407 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 20:53:34,447 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 21:23:17,571 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 21:23:17,612 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 21:23:17,705 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 21:23:17,740 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 21:33:44,715 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 21:33:46,205 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 21:33:46,211 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 21:33:46,250 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 21:42:25,369 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 21:42:27,620 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 21:42:27,636 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 21:42:27,757 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 23:06:52,294 - routes.auth - INFO - POST /auth/register - User registration attempt
+2025-12-07 23:06:52,295 - routes.auth - INFO - Registration attempt - Name: asdfg, Email: asdfg@gmail.com, Role: buyer
+2025-12-07 23:06:52,897 - routes.auth - INFO - Password hashed successfully
+2025-12-07 23:06:52,957 - routes.auth - INFO - User registered successfully - ID: 6935bb3450ba5abd5c88db6c, Email: asdfg@gmail.com, Role: buyer
+2025-12-07 23:06:56,513 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 23:06:56,558 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 23:06:56,561 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 23:06:56,602 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 23:07:35,752 - routes.auth - INFO - POST /auth/login - Login attempt
+2025-12-07 23:07:35,752 - routes.auth - INFO - Login attempt - Email: asdg@gmail.com
+2025-12-07 23:07:35,795 - routes.auth - WARNING - Login failed - User not found: asdg@gmail.com
+2025-12-07 23:07:35,795 - routes.auth - WARNING - HTTPException during login
+2025-12-07 23:07:41,247 - routes.auth - INFO - POST /auth/login - Login attempt
+2025-12-07 23:07:41,248 - routes.auth - INFO - Login attempt - Email: asdg@gmail.com
+2025-12-07 23:07:41,292 - routes.auth - WARNING - Login failed - User not found: asdg@gmail.com
+2025-12-07 23:07:41,293 - routes.auth - WARNING - HTTPException during login
+2025-12-07 23:07:46,944 - routes.auth - INFO - POST /auth/login - Login attempt
+2025-12-07 23:07:46,945 - routes.auth - INFO - Login attempt - Email: asdfg@gmail.com
+2025-12-07 23:07:47,242 - routes.auth - INFO - Login successful - Email: asdfg@gmail.com, Role: buyer
+2025-12-07 23:07:50,543 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 23:07:50,598 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 23:07:50,604 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 23:07:50,644 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 23:08:22,972 - routes.auth - INFO - POST /auth/register - User registration attempt
+2025-12-07 23:08:22,974 - routes.auth - INFO - Registration attempt - Name: asdfg, Email: asdfg@gmail.com, Role: buyer
+2025-12-07 23:08:23,017 - routes.auth - WARNING - Registration failed - Email already exists: asdfg@gmail.com
+2025-12-07 23:08:23,017 - routes.auth - WARNING - HTTPException during registration
+2025-12-07 23:08:52,719 - routes.auth - INFO - POST /auth/login - Login attempt
+2025-12-07 23:08:52,720 - routes.auth - INFO - Login attempt - Email: asdfg@gmail.com
+2025-12-07 23:08:53,016 - routes.auth - INFO - Login successful - Email: asdfg@gmail.com, Role: buyer
+2025-12-07 23:08:56,003 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 23:08:56,050 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 23:08:56,054 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 23:08:56,094 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 23:33:00,052 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 23:33:00,099 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 23:33:00,103 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 23:33:00,140 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 23:37:59,934 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 23:38:00,877 - routes.properties - INFO - Found 4 featured properties
+2025-12-07 23:38:00,883 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-07 23:38:00,922 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 00:14:50,517 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 00:14:51,178 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 00:14:51,184 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 00:14:51,223 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 15:47:40,613 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 15:47:40,928 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 15:47:40,936 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 15:47:40,973 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 15:53:31,803 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 15:53:32,556 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 15:53:32,561 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 15:53:32,600 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 16:03:11,368 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 16:03:11,409 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 16:03:11,413 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 16:03:11,449 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 16:23:31,015 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 16:23:31,344 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 16:23:31,350 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 16:23:31,386 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 16:44:53,174 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 16:44:53,217 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 16:44:53,222 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 16:44:53,267 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 17:16:34,145 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 17:16:34,521 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 17:16:34,527 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 17:16:34,565 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 20:51:27,756 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 20:51:30,095 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 20:51:30,104 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 20:51:30,146 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 21:33:58,783 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 21:33:59,086 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 21:33:59,092 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 21:33:59,130 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 21:51:09,118 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 21:51:09,458 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 21:51:09,473 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 21:51:09,515 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 21:53:43,130 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 21:53:43,176 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 21:53:43,181 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 21:53:43,223 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 21:57:55,698 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 21:57:56,696 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 21:57:56,704 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 21:57:56,809 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 21:58:07,940 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 21:58:07,979 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 21:58:07,982 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 21:58:08,021 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 21:58:24,523 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 21:58:24,558 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 21:58:24,560 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 21:58:24,597 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 21:58:26,603 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 21:58:26,641 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 21:58:26,643 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 21:58:26,684 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 21:58:34,863 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 21:58:34,901 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 21:58:34,903 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 21:58:34,939 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 22:01:09,480 - routes.auth - INFO - POST /auth/login - Login attempt
+2025-12-08 22:01:09,480 - routes.auth - INFO - Login attempt - Email: assdfg@gmail.com
+2025-12-08 22:01:09,521 - routes.auth - WARNING - Login failed - User not found: assdfg@gmail.com
+2025-12-08 22:01:09,521 - routes.auth - WARNING - HTTPException during login
+2025-12-08 22:01:18,885 - routes.auth - INFO - POST /auth/login - Login attempt
+2025-12-08 22:01:18,885 - routes.auth - INFO - Login attempt - Email: asdfg@gmail.com
+2025-12-08 22:01:19,206 - routes.auth - INFO - Login successful - Email: asdfg@gmail.com, Role: buyer
+2025-12-08 22:01:22,417 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 22:01:22,458 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 22:01:22,461 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 22:01:22,497 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 22:39:11,207 - routes.auth - INFO - POST /auth/register - User registration attempt
+2025-12-08 22:39:11,209 - routes.auth - INFO - Registration attempt - Name: abdul, Email: abdul@gmail.com, Role: seller
+2025-12-08 22:39:11,805 - routes.auth - INFO - Password hashed successfully
+2025-12-08 22:39:11,867 - routes.auth - INFO - User registered successfully - ID: 693706374db68679ccbd7e84, Email: abdul@gmail.com, Role: seller
+2025-12-08 22:39:14,923 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 22:39:14,967 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 22:39:14,993 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 22:39:15,032 - routes.properties - INFO - Found 4 featured properties
+2025-12-08 22:39:21,818 - routes.properties - INFO - GET /properties/user/my-properties - Getting user's properties
+2025-12-08 22:39:21,819 - routes.properties - INFO - Role verification - User: abdul@gmail.com, Role: seller, Authorized: True
+2025-12-08 22:39:21,819 - routes.properties - INFO - Fetching properties for user: abdul@gmail.com (ID: 693706374db68679ccbd7e84)
+2025-12-08 22:39:21,861 - routes.properties - INFO - Found 0 properties for user 693706374db68679ccbd7e84
+2025-12-08 22:39:21,903 - routes.properties - INFO - GET /properties/user/my-properties - Getting user's properties
+2025-12-08 22:39:21,903 - routes.properties - INFO - Role verification - User: abdul@gmail.com, Role: seller, Authorized: True
+2025-12-08 22:39:21,903 - routes.properties - INFO - Fetching properties for user: abdul@gmail.com (ID: 693706374db68679ccbd7e84)
+2025-12-08 22:39:21,942 - routes.properties - INFO - Found 0 properties for user 693706374db68679ccbd7e84
+2025-12-08 22:40:31,008 - routes.properties - INFO - POST /properties - Adding new property
+2025-12-08 22:40:31,008 - routes.properties - INFO - Role verification - User: abdul@gmail.com, Role: seller, Authorized: True
+2025-12-08 22:40:31,011 - routes.properties - ERROR - Error adding property: 1 validation error for PropertyCreate
+description
+  String should have at least 10 characters [type=string_too_short, input_value='hjkk', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_too_short
+Traceback (most recent call last):
+  File "/Users/sonalomar/Documents/HomeHunt/backend/routes/properties.py", line 222, in add_property
+    property_create = PropertyCreate(**property_dict)
+  File "/Users/sonalomar/Documents/myapp/backened/venv/lib/python3.13/site-packages/pydantic/main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for PropertyCreate
+description
+  String should have at least 10 characters [type=string_too_short, input_value='hjkk', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_too_short
+2025-12-08 22:41:00,733 - routes.properties - INFO - POST /properties - Adding new property
+2025-12-08 22:41:00,734 - routes.properties - INFO - Role verification - User: abdul@gmail.com, Role: seller, Authorized: True
+2025-12-08 22:41:00,736 - routes.properties - INFO - Received image_urls: [UploadFile(filename='IMG_9093.jpg', size=3945803, headers=Headers({'content-disposition': 'form-data; name="image_urls"; filename="IMG_9093.jpg"', 'content-type': 'image/jpeg'}))]
+2025-12-08 22:41:00,808 - routes.properties - INFO - Saved image: IMG_9093.jpg -> /uploads/properties/693706a44db68679ccbd7e85_e650b1ae24aa4c989cd19322e4daf233.jpg
+2025-12-08 22:41:00,890 - routes.properties - INFO - Property inserted successfully with ID: 693706a44db68679ccbd7e85
+2025-12-08 22:41:02,537 - routes.properties - INFO - GET /properties/user/my-properties - Getting user's properties
+2025-12-08 22:41:02,537 - routes.properties - INFO - Role verification - User: abdul@gmail.com, Role: seller, Authorized: True
+2025-12-08 22:41:02,537 - routes.properties - INFO - Fetching properties for user: abdul@gmail.com (ID: 693706374db68679ccbd7e84)
+2025-12-08 22:41:02,579 - routes.properties - INFO - Found 1 properties for user 693706374db68679ccbd7e84
+2025-12-08 22:41:02,579 - routes.properties - INFO - Property '7bhk' (ID: 693706a44db68679ccbd7e85):
+2025-12-08 22:41:02,580 - routes.properties - INFO -   - Raw image_urls from DB: ['/uploads/properties/693706a44db68679ccbd7e85_e650b1ae24aa4c989cd19322e4daf233.jpg']
+2025-12-08 22:41:02,580 - routes.properties - INFO -   - Type of image_urls: <class 'list'>
+2025-12-08 22:41:02,580 - routes.properties - INFO -   - Number of images: 1
+2025-12-08 22:41:02,580 - routes.properties - INFO -     Image 0: /uploads/properties/693706a44db68679ccbd7e85_e650b1ae24aa4c989cd19322e4daf233.jpg -> http://localhost:8000/uploads/properties/693706a44db68679ccbd7e85_e650b1ae24aa4c989cd19322e4daf233.jpg
+2025-12-08 22:41:02,580 - routes.properties - INFO -   - Photos count in DB: 1
+2025-12-08 22:41:18,794 - routes.properties - INFO - GET /properties - Listing all properties
+2025-12-08 22:41:18,835 - routes.properties - INFO - Found 11 properties in database
+2025-12-08 22:41:18,835 - routes.properties - INFO - Successfully retrieved and formatted properties
+2025-12-08 22:41:18,838 - routes.properties - INFO - GET /properties - Listing all properties
+2025-12-08 22:41:18,880 - routes.properties - INFO - Found 11 properties in database
+2025-12-08 22:41:18,880 - routes.properties - INFO - Successfully retrieved and formatted properties
+2025-12-08 22:41:48,301 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 22:41:48,347 - routes.properties - INFO - Found 5 featured properties
+2025-12-08 22:41:48,350 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 22:41:48,390 - routes.properties - INFO - Found 5 featured properties
+2025-12-08 23:08:10,150 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 23:08:10,192 - routes.properties - INFO - Found 5 featured properties
+2025-12-08 23:08:10,197 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 23:08:10,252 - routes.properties - INFO - Found 5 featured properties
+2025-12-08 23:21:02,309 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 23:21:02,622 - routes.properties - INFO - Found 5 featured properties
+2025-12-08 23:21:02,629 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-08 23:21:02,665 - routes.properties - INFO - Found 5 featured properties
+2025-12-09 00:25:16,867 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-09 00:25:17,171 - routes.properties - INFO - Found 5 featured properties
+2025-12-09 00:25:17,175 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-09 00:25:17,209 - routes.properties - INFO - Found 5 featured properties
+2025-12-09 00:26:14,407 - routes.auth - INFO - POST /auth/login - Login attempt
+2025-12-09 00:26:14,408 - routes.auth - INFO - Login attempt - Email: asdfg@gmail.com
+2025-12-09 00:26:14,713 - routes.auth - INFO - Login successful - Email: asdfg@gmail.com, Role: buyer
+2025-12-09 00:26:19,406 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-09 00:26:19,442 - routes.properties - INFO - Found 5 featured properties
+2025-12-09 00:26:19,444 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-09 00:26:19,482 - routes.properties - INFO - Found 5 featured properties
+2025-12-09 00:26:33,208 - routes.properties - INFO - GET /properties - Listing all properties
+2025-12-09 00:26:33,245 - routes.properties - INFO - Found 11 properties in database
+2025-12-09 00:26:33,245 - routes.properties - INFO - Successfully retrieved and formatted properties
+2025-12-09 00:26:33,249 - routes.properties - INFO - GET /properties - Listing all properties
+2025-12-09 00:26:33,283 - routes.properties - INFO - Found 11 properties in database
+2025-12-09 00:26:33,283 - routes.properties - INFO - Successfully retrieved and formatted properties
+2025-12-09 00:27:17,862 - routes.properties - INFO - GET /properties/user/my-properties - Getting user's properties
+2025-12-09 00:27:17,863 - routes.properties - INFO - Role verification - User: asdfg@gmail.com, Role: buyer, Authorized: False
+2025-12-09 00:27:17,863 - routes.properties - WARNING - HTTPException raised while fetching user properties
+2025-12-09 00:27:17,901 - routes.properties - INFO - GET /properties/user/my-properties - Getting user's properties
+2025-12-09 00:27:17,902 - routes.properties - INFO - Role verification - User: asdfg@gmail.com, Role: buyer, Authorized: False
+2025-12-09 00:27:17,902 - routes.properties - WARNING - HTTPException raised while fetching user properties
+2025-12-09 00:28:59,717 - routes.properties - INFO - GET /properties - Listing all properties
+2025-12-09 00:28:59,755 - routes.properties - INFO - Found 11 properties in database
+2025-12-09 00:28:59,755 - routes.properties - INFO - Successfully retrieved and formatted properties
+2025-12-09 00:28:59,761 - routes.properties - INFO - GET /properties - Listing all properties
+2025-12-09 00:28:59,798 - routes.properties - INFO - Found 11 properties in database
+2025-12-09 00:28:59,798 - routes.properties - INFO - Successfully retrieved and formatted properties
+2025-12-09 00:29:24,336 - routes.properties - INFO - GET /properties - Listing all properties
+2025-12-09 00:29:24,378 - routes.properties - INFO - Found 11 properties in database
+2025-12-09 00:29:24,379 - routes.properties - INFO - Successfully retrieved and formatted properties
+2025-12-09 00:29:24,385 - routes.properties - INFO - GET /properties - Listing all properties
+2025-12-09 00:29:24,420 - routes.properties - INFO - Found 11 properties in database
+2025-12-09 00:29:24,420 - routes.properties - INFO - Successfully retrieved and formatted properties
+2025-12-09 00:29:27,640 - routes.properties - INFO - GET /properties/693706a44db68679ccbd7e85 - Getting property details
+2025-12-09 00:29:27,699 - routes.properties - INFO - Successfully retrieved property: 7bhk with 1 images
+2025-12-09 00:29:27,701 - routes.properties - INFO - GET /properties/693706a44db68679ccbd7e85 - Getting property details
+2025-12-09 00:29:27,735 - routes.properties - INFO - Successfully retrieved property: 7bhk with 1 images
+2025-12-09 00:32:20,224 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-09 00:32:20,278 - routes.properties - INFO - Found 5 featured properties
+2025-12-09 00:32:20,283 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-09 00:32:20,320 - routes.properties - INFO - Found 5 featured properties
+2025-12-09 00:32:22,824 - routes.properties - INFO - GET /properties - Listing all properties
+2025-12-09 00:32:22,863 - routes.properties - INFO - Found 11 properties in database
+2025-12-09 00:32:22,864 - routes.properties - INFO - Successfully retrieved and formatted properties
+2025-12-09 00:32:22,867 - routes.properties - INFO - GET /properties - Listing all properties
+2025-12-09 00:32:22,902 - routes.properties - INFO - Found 11 properties in database
+2025-12-09 00:32:22,903 - routes.properties - INFO - Successfully retrieved and formatted properties
+2025-12-09 00:32:24,710 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-09 00:32:24,751 - routes.properties - INFO - Found 5 featured properties
+2025-12-09 00:32:24,753 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-09 00:32:24,786 - routes.properties - INFO - Found 5 featured properties
+2025-12-09 00:37:51,855 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-09 00:37:51,896 - routes.properties - INFO - Found 5 featured properties
+2025-12-09 00:37:51,898 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-09 00:37:51,934 - routes.properties - INFO - Found 5 featured properties
+2025-12-09 00:44:50,059 - routes.properties - INFO - GET /properties - Listing all properties
+2025-12-09 00:44:50,116 - routes.properties - INFO - Found 11 properties in database
+2025-12-09 00:44:50,117 - routes.properties - INFO - Successfully retrieved and formatted properties
+2025-12-09 00:44:50,125 - routes.properties - INFO - GET /properties - Listing all properties
+2025-12-09 00:44:50,163 - routes.properties - INFO - Found 11 properties in database
+2025-12-09 00:44:50,163 - routes.properties - INFO - Successfully retrieved and formatted properties
+2025-12-09 00:44:52,159 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-09 00:44:52,197 - routes.properties - INFO - Found 5 featured properties
+2025-12-09 00:44:52,200 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-09 00:44:52,235 - routes.properties - INFO - Found 5 featured properties
+2025-12-09 00:45:18,764 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-09 00:45:18,798 - routes.properties - INFO - Found 5 featured properties
+2025-12-09 00:45:18,800 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-09 00:45:18,833 - routes.properties - INFO - Found 5 featured properties
+2025-12-09 00:45:35,778 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-09 00:45:35,815 - routes.properties - INFO - Found 5 featured properties
+2025-12-09 00:45:35,817 - routes.properties - INFO - GET /properties/trending/featured - Getting featured properties
+2025-12-09 00:45:35,850 - routes.properties - INFO - Found 5 featured properties

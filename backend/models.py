@@ -2,7 +2,7 @@ from pydantic import BaseModel, EmailStr, Field, field_validator
 from typing import Optional, List
 from datetime import datetime
 from pydantic import ConfigDict
-import re
+
 
 class User(BaseModel):
     name: str = Field(..., min_length=1, max_length=100, example="John Doe")

@@ -8,12 +8,13 @@ app = FastAPI()
 import os
 
 # Use current working directory
-UPLOAD_DIR = "/Users/sonalomar/Documents/HomeHunt/backend/uploads/properties"
-os.makedirs(UPLOAD_DIR, exist_ok=True)
+UPLOAD_DIR = "/Users/sonalomar/Documents/HomeHunt/backend/uploads"
+app.mount("/uploads", StaticFiles(directory=UPLOAD_DIR), name="uploads")
+
 
 print(f"📁 Serving from: {os.path.abspath(UPLOAD_DIR)}")
 
-app.mount("/uploads", StaticFiles(directory=UPLOAD_DIR), name="uploads")
+
 
 # Include routers
 app.include_router(auth.router)
@@ -27,24 +28,29 @@ app.add_middleware(
     allow_methods=["*"],  # Allow all methods (GET, POST, PUT, DELETE, etc.)
     allow_headers=["*"],  # Allow all headers
 )
-# ✅ Customize Swagger for JWT Bearer token
+# Customize Swagger for JWT Bearer token
+
+
 def custom_openapi():
     if app.openapi_schema:
         return app.openapi_schema
+
     openapi_schema = get_openapi(
         title="Property App API",
         version="1.0.0",
-        description="API for Property App with JWT-based authentication and RBAC",
         routes=app.routes,
     )
-    openapi_schema["components"]["securitySchemes"] = {
-        "BearerAuth": {
-            "type": "http",
-            "scheme": "bearer",
-            "bearerFormat": "JWT",
+
+    openapi_schema["components"] = {
+        "securitySchemes": {
+            "BearerAuth": {
+                "type": "http",
+                "scheme": "bearer",
+                "bearerFormat": "JWT"
+            }
         }
     }
-    # openapi_schema["security"] = [{"BearerAuth": []}]
+
     app.openapi_schema = openapi_schema
     return app.openapi_schema
 

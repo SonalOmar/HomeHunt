@@ -352,9 +352,7 @@ const Profile = () => {
                     Add New Property
                   </a>
                 )}
-                <a href="/manage-properties" className="action-link">
-                  My Properties
-                </a>
+                
                 <a href="/favorites" className="action-link">
                   My Favorites
                 </a>
